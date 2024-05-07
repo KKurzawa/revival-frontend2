@@ -1,0 +1,47 @@
+.landing-main{
+    animation: main-fade-out 2s linear 5s 1 both;
+    background-color: black;
+}
+
+.landing-logo{
+    animation: logo-fade-in 6s linear 0s 1 ;
+}
+
+.landing-text{
+    animation: text-fade-in 3s linear 3s both;
+}
+
+@keyframes main-fade-out {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes logo-fade-in {
+    0% {
+        opacity: 0;
+        transform: rotateX(270deg);
+        width: 20rem;
+    }
+    75%{
+        transform: rotateX(360deg);
+        width: 35.75rem;
+    }
+    100% {
+        opacity: 1;
+        transform: rotateX(360deg);
+        width: 35.75rem;
+    }
+}
+
+@keyframes text-fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

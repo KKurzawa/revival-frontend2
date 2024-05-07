@@ -1,0 +1,12 @@
+* {
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+scroll-behavior: smooth;
+font-family: "Michroma", sans-serif;
+}
+
+
+#root{
+    background-color: black;
+}

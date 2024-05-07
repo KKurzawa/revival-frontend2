@@ -1,0 +1,14 @@
+footer{
+    animation: main-fade-in 1s linear 1 both;
+    bottom: 0
+    /* background-color: black; */
+}
+
+@keyframes main-fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
