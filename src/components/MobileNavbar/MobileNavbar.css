@@ -1,0 +1,5 @@
+.dropdown,
+.nav-link{
+    background-color: black;
+    z-index: 1;
+}

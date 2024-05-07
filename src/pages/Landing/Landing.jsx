@@ -5,8 +5,9 @@ const Landing = () => {
     return (
         <main className='landing-main flex h-full w-full'>
             <article className='flex flex-col justify-center items-center h-screen w-full'>
-                <img src={logo} alt='logo' className='landing-logo' />
-                <h1 className='landing-text pt-3 text-2xl text-[whitesmoke]'>Detroits Ultimate Allman Brothers Experience</h1>
+                <img src={logo} alt='logo' className='mobile-landing-logo flex md:hidden w-[90%] h-auto' />
+                <img src={logo} alt='logo' className='landing-logo hidden md:flex h-auto' />
+                <h1 className='landing-text text-center pt-3 text-lg md:text-2xl text-[whitesmoke]'>Detroits Ultimate Allman Brothers Experience</h1>
             </article>
 
         </main>
