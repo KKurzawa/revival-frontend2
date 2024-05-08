@@ -8,7 +8,7 @@ import Contact from '../../components/Contact/Contact'
 const Home = () => {
     return (
         <main className='main-container h-auto'>
-            <Shows />
+            <Shows className='' />
             <Band />
             <Video />
             <Testimonials />

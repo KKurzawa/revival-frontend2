@@ -13,7 +13,7 @@ const MobileNavbar = () => {
     useClickAway(ref, () => setIsOpen(false))
 
     return (
-        <nav ref={ref}>
+        <nav ref={ref} className='flex h-28'>
             <article className='flex justify-around items-center'>
                 <Hamburger toggled={isOpen} size={30} toggle={setIsOpen} color='whitesmoke' rounded easing='ease-in' />
                 <img src={Logo} alt='logo' className='w-3/4' />
@@ -26,9 +26,9 @@ const MobileNavbar = () => {
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
                         transition={{ duration: 1 }}
-                        className='dropdown absolute left-0 right-0 top-[5.25rem] p-5'
+                        className='dropdown absolute left-0 right-0 top-[6rem] p-5'
                     >
-                        <ul className='grid gap-2'>
+                        <ul className='open-dropdown grid gap-2'>
                             {navLinks.map((route, idx) => {
                                 return (
                                     <motion.li

@@ -7,6 +7,7 @@ import MobileNavbar from '../MobileNavbar/MobileNavbar'
 const Header = () => {
     return (
         <>
+            {/* small */}
             <main id='header' className='mobile-header-container flex flex-col md:hidden'>
                 <MobileNavbar />
                 <img src={RevivalPic} alt='pic' className='mobile-header-pic' />

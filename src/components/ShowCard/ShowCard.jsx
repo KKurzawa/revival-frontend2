@@ -15,9 +15,9 @@ const ShowCard = () => {
     }
 
     return (
-        <main className='flex flex-col mt-3'>
+        <main className='shows-container flex flex-col w-full'>
             {shows.map((show) => (
-                <ol className='show-card flex flex-col items-center mb-5 text-2xl' key={show.index}>
+                <ol key={show.index} className='show-card flex flex-col items-center w-full pb-5 mb-5 text-lg md:text-2xl'>
                     <li>{show.date}</li>
                     <button onClick={() => setTimeout(() =>
                         window.open(show.venueLink, '_blank')

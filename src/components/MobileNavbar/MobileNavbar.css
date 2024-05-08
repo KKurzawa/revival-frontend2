@@ -1,5 +1,7 @@
 .dropdown,
+.open-dropdown,
 .nav-link{
     background-color: black;
-    z-index: 1;
+    z-index: 10;
+    position: relative;
 }
