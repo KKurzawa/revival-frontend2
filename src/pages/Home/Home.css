@@ -1,12 +1,27 @@
 .main-container{
-    animation: main-fade-in 1s linear 1 both;
+    /* animation: main-fade-in 1s linear 1 both; */
+    position: relative;
 }
 
-@keyframes main-fade-in {
+/* @keyframes main-fade-in {
     0%{
-        opacity: 0;
+        visibility: hidden;
     }
     100%{
-        opacity: 1;
+       visibility: visible;
     }
+} */
+
+.main-container::before{
+    /* position: absolute;
+        pointer-events: none;
+        background-image: url('/public/peachPic.jpg');
+        background-size: cover;
+        background-position: center top;
+        background-repeat: repeat-y;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        opacity: .15;
+     */
 }

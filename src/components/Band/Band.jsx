@@ -4,8 +4,10 @@ import BandMember from '../BandMember/BandMember'
 const Band = () => {
     return (
         <main id='band' className='flex flex-col items-center w-full text-[whitesmoke]'>
-            <header className='band-header pb-5 w-full text-center'><span className='text-[1.7rem]'>B</span><span className='text-2xl'>AN</span><span className='text-[1.7rem]'>D</span></header>
-            <BandMember />
+            <header className='band-header py-2 md:py-5 w-full text-center'><span className='text-[2rem]'>B</span><span className='text-3xl'>AN</span><span className='text-[2rem]'>D</span></header>
+            <article className='band-member-container'>
+                <BandMember />
+            </article>
         </main>
     )
 }

@@ -1,4 +1,17 @@
+#shows{
+    animation: shows-fade-in 1s linear 1 both;
+    position: relative;
+    z-index: 0;
+}
+
+@keyframes shows-fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+       opacity: .9;
+    }
+}
 .shows-header{
     border-bottom: solid 1px rgba(245, 245, 245, 0.209);
 }
-

@@ -1,5 +1,5 @@
 .landing-main{
-    /* animation: main-fade-out 2s linear 5s 1 both; */
+    animation: main-fade-out 2s linear 5s 1 both;
     background-color: black;
 }
 
@@ -29,15 +29,19 @@
         opacity: 0;
         transform: rotateX(270deg);
         width: 20rem;
+        filter:brightness(100%)
+        
     }
     75%{
         transform: rotateX(360deg);
         width: 35.75rem;
+        filter:brightness(400%) 
     }
     100% {
         opacity: 1;
         transform: rotateX(360deg);
         width: 35.75rem;
+        filter:brightness(100%)
     }
 }
 
@@ -46,23 +50,31 @@
         opacity: 0;
         transform: rotateX(270deg);
         width: 50%;
+        filter:brightness(100%)
     }
     75%{
         transform: rotateX(360deg);
         width: 90%;
+        filter:brightness(400%)
     }
     100% {
         opacity: 1;
         transform: rotateX(360deg);
         width: 90%;
+        filter:brightness(100%)
     }
 }
 
 @keyframes text-fade-in {
     0% {
         opacity: 0;
+        filter:brightness(100%)
+    }
+    85% {
+        filter:brightness(400%)
     }
     100% {
         opacity: 1;
+        filter:brightness(100%)
     }
 }

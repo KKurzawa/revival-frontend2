@@ -3,14 +3,14 @@ import BandMembers from '../../utils/BandMembers.jsx'
 
 const BandMember = () => {
     return (
-        <main className='flex flex-row justify-evenly'>
-            <article className='flex flex-col'>
-                {BandMembers.map((member, index) => index % 2 === 0 && (
+        <main className='member-container flex flex-col justify-evenly'>
+            <article className='hidden lg:flex'>
+                {BandMembers.slice(0, 2).map((member) => (
                     <ol key={member.id} className='flex flex-col items-center py-2'>
-                        <li key={member.name} className='pb-1 text-2xl'>{member.name}</li>
-                        <img src={member.pic} alt='member pic' className='pb-1 w-4/5 rounded-lg' />
-                        <li className='pb-1 text-[.7rem]'>{member.description}</li>
-                        <li className='flex justify-evenly w-40 text-xl'>
+                        <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
+                        <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-lg' />
+                        <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
+                        <li className='media-icons flex justify-evenly w-40 text-xl'>
                             <i><button onClick={() => setTimeout(() =>
                                 window.open(member.facebookLink, '_blank')
                                 , 500)}>{member.facebookIcon}</button></i>
@@ -30,13 +30,65 @@ const BandMember = () => {
                     </ol>
                 ))}
             </article>
-            <article className='flex flex-col'>
-                {BandMembers.map((member, index) => index % 2 !== 0 && (
+            <article className='hidden lg:flex'>
+                {BandMembers.slice(2, 4).map((member) => (
                     <ol key={member.id} className='flex flex-col items-center py-2'>
-                        <li key={member.name} className='text-2xl pb-1'>{member.name}</li>
-                        <img src={member.pic} alt='member pic' className='w-4/5 pb-1 rounded-lg' />
-                        <li className='pb-1 text-[.7rem]'>{member.description}</li>
-                        <li className='flex justify-evenly w-40 text-xl'>
+                        <li key={member.name} className='member-name text-2xl pb-1'>{member.name}</li>
+                        <img src={member.pic} alt='member pic' className='member-pic w-4/5 pb-1 rounded-lg' />
+                        <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
+                        <li className='media-icons flex justify-evenly w-40 text-xl'>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.facebookLink, '_blank')
+                                , 500)}>{member.facebookIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.instagramLink, '_blank')
+                                , 500)}>{member.instagramIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.websiteLink, '_blank')
+                                , 500)}>{member.websiteIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.appleMusicLink, '_blank')
+                                , 500)}>{member.appleMusicIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.spotifyLink, '_blank')
+                                , 500)}>{member.spotifyIcon}</button></i>
+                        </li>
+                    </ol>
+                ))}
+            </article>
+            <article className='hidden lg:flex'>
+                {BandMembers.slice(4, 6).map((member) => (
+                    <ol key={member.id} className='flex flex-col items-center py-2'>
+                        <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
+                        <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-lg' />
+                        <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
+                        <li className='media-icons flex justify-evenly w-40 text-xl'>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.facebookLink, '_blank')
+                                , 500)}>{member.facebookIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.instagramLink, '_blank')
+                                , 500)}>{member.instagramIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.websiteLink, '_blank')
+                                , 500)}>{member.websiteIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.appleMusicLink, '_blank')
+                                , 500)}>{member.appleMusicIcon}</button></i>
+                            <i><button onClick={() => setTimeout(() =>
+                                window.open(member.spotifyLink, '_blank')
+                                , 500)}>{member.spotifyIcon}</button></i>
+                        </li>
+                    </ol>
+                ))}
+            </article>
+            <article className='flex flex-col lg:hidden'>
+                {BandMembers.map((member) => (
+                    <ol key={member.id} className='flex flex-col items-center py-4'>
+                        <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
+                        <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-lg' />
+                        <li className='member-description pb-1 text-[.6rem] md:text-[1rem]'>{member.description}</li>
+                        <li className='media-icons flex justify-evenly w-40 text-xl'>
                             <i><button onClick={() => setTimeout(() =>
                                 window.open(member.facebookLink, '_blank')
                                 , 500)}>{member.facebookIcon}</button></i>
