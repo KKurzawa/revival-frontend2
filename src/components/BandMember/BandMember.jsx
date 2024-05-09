@@ -4,11 +4,11 @@ import BandMembers from '../../utils/BandMembers.jsx'
 const BandMember = () => {
     return (
         <main className='member-container flex flex-col justify-evenly'>
-            <article className='hidden lg:flex'>
-                {BandMembers.slice(0, 2).map((member) => (
+            <article className='row-container hidden lg:flex'>
+                {BandMembers.slice(0, 3).map((member) => (
                     <ol key={member.id} className='flex flex-col items-center py-2'>
                         <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
-                        <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-lg' />
+                        <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-xl' />
                         <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
                         <li className='media-icons flex justify-evenly w-40 text-xl'>
                             <i><button onClick={() => setTimeout(() =>
@@ -30,11 +30,11 @@ const BandMember = () => {
                     </ol>
                 ))}
             </article>
-            <article className='hidden lg:flex'>
-                {BandMembers.slice(2, 4).map((member) => (
+            <article className='row-container hidden lg:flex'>
+                {BandMembers.slice(3, 6).map((member) => (
                     <ol key={member.id} className='flex flex-col items-center py-2'>
                         <li key={member.name} className='member-name text-2xl pb-1'>{member.name}</li>
-                        <img src={member.pic} alt='member pic' className='member-pic w-4/5 pb-1 rounded-lg' />
+                        <img src={member.pic} alt='member pic' className='member-pic w-4/5 pb-1 rounded-xl' />
                         <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
                         <li className='media-icons flex justify-evenly w-40 text-xl'>
                             <i><button onClick={() => setTimeout(() =>
@@ -56,7 +56,7 @@ const BandMember = () => {
                     </ol>
                 ))}
             </article>
-            <article className='hidden lg:flex'>
+            {/* <article className='hidden lg:flex'>
                 {BandMembers.slice(4, 6).map((member) => (
                     <ol key={member.id} className='flex flex-col items-center py-2'>
                         <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
@@ -81,12 +81,12 @@ const BandMember = () => {
                         </li>
                     </ol>
                 ))}
-            </article>
+            </article> */}
             <article className='flex flex-col lg:hidden'>
                 {BandMembers.map((member) => (
-                    <ol key={member.id} className='flex flex-col items-center py-4'>
+                    <ol key={member.id} className='row-container flex flex-col items-center py-4'>
                         <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
-                        <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-lg' />
+                        <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-xl' />
                         <li className='member-description pb-1 text-[.6rem] md:text-[1rem]'>{member.description}</li>
                         <li className='media-icons flex justify-evenly w-40 text-xl'>
                             <i><button onClick={() => setTimeout(() =>

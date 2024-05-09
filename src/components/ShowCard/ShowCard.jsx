@@ -19,7 +19,7 @@ const ShowCard = () => {
             <article className=''>
                 {shows.map((show) => (
                     <ol key={show.index} className='show-card flex flex-col items-center w-full text-lg md:text-2xl'>
-                        <li className='pt-5'>{show.date}</li>
+                        <li className='date pt-5'>{show.date}</li>
                         <button onClick={() => setTimeout(() =>
                             window.open(show.venueLink, '_blank')
                             , 500)} className='venue'><li className=''>{show.venue}</li></button>
