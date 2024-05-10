@@ -15,7 +15,7 @@ const ShowCard = () => {
     }
 
     return (
-        <main className='shows-container flex flex-col w-full'>
+        <main className='shows-container w-full'>
             <article className=''>
                 {shows.map((show) => (
                     <ol key={show.index} className='show-card flex flex-col items-center w-full text-lg md:text-2xl'>
