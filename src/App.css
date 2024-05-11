@@ -4,6 +4,12 @@ padding: 0;
 margin: 0;
 scroll-behavior: smooth;
 font-family: "Michroma", sans-serif;
+
+/* variables */
+
+/* borders */
+
+--border-one: solid 1px rgba(245, 245, 245, 0.209);
 }
 
 

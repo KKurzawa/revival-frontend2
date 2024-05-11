@@ -10,7 +10,7 @@ const Footer = () => {
                     <i key={icon.id} className='px-4 text-3xl'><a href={icon.link}>{icon.icon}</a></i>
                 ))}
             </article>
-            <a href='/#header' className='py-[.15rem] text-xl'>To the Top</a>
+            <a href='/#top' className='py-[.15rem] text-xl'>To the Top</a>
             <h2 className='mailto-link py-[.15rem] text-xl'> <button onClick={() => setTimeout(() =>
                 window.open('mailto:kurzawa1@yahoo.com')
                 , 500)} >Email Me</button></h2>

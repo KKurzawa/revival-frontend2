@@ -108,6 +108,7 @@ const BandMember = () => {
                     </ol>
                 ))}
             </article>
+            <a href='/#top' className='band-top-link flex justify-center py-2 w-full text-xl'>To the Top</a>
         </main>
 
     )

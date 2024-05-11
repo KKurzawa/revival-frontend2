@@ -15,8 +15,8 @@ const ShowCard = () => {
     }
 
     return (
-        <main className='shows-container w-full'>
-            <article className=''>
+        <main className='shows-container flex flex-col items-center w-full'>
+            <article className='flex flex-col items-center w-full'>
                 {shows.map((show) => (
                     <ol key={show.index} className='show-card flex flex-col items-center w-full text-lg md:text-2xl'>
                         <li className='date pt-5'>{show.date}</li>
@@ -37,10 +37,10 @@ const ShowCard = () => {
                                     )
                             }
                         </article>
-
                     </ol>
                 ))}
             </article>
+            <a href='/#top' className='shows-top-link flex justify-center py-2 w-full text-xl'>To the Top</a>
         </main>
     )
 }
