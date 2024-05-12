@@ -18,7 +18,7 @@ export const navLinks = [
         first: 'V',
         title: 'IDEO',
         last: 'S',
-        link: '#video'
+        link: '#videos'
     },
     {
         id: 4,
