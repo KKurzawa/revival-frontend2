@@ -1,3 +1,34 @@
-.testimonials-header{
+.testimonials-header,
+.comment-name,
+.user-first-name,
+.user-last-name{
     border-bottom: var(--border-one);
+}
+
+.testimonials-top-link{
+    border-top: var(--border-one);
+    border-bottom: var(--border-one);
+}
+
+.comments-form,
+.post-button{
+    border: var(--border-one)
+}
+.comments-container,
+.form-container{
+    position: relative;
+}
+
+.comments-container::before,
+.form-container::before{
+    position: absolute;
+    pointer-events: none;
+    background-image: url('/public/peachPic2.png');
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: repeat-y;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: .2;
 }
