@@ -1,7 +1,5 @@
 .testimonials-header,
-.comment-name,
-.user-first-name,
-.user-last-name{
+.comment-name{
     border-bottom: var(--border-one);
 }
 
@@ -10,7 +8,10 @@
     border-bottom: var(--border-one);
 }
 
-.comments-form,
+
+.user-first-name,
+.user-last-name,
+.user-experience,
 .post-button{
     border: var(--border-one)
 }
@@ -31,4 +32,9 @@
     height: 100%;
     z-index: 0;
     opacity: .2;
+}
+
+.contact-top-link{
+    border-top: var(--border-one);
+    border-bottom: var(--border-one)
 }
