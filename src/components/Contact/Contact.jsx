@@ -70,7 +70,7 @@ const Contact = () => {
                         <textarea
                             className='user-message outline-none px-2 py-2 my-1 text-xl bg-transparent rounded-xl'
                             cols='30'
-                            rows='5'
+                            rows='3'
                             placeholder='Message'
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
