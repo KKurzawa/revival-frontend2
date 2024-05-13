@@ -71,7 +71,7 @@ const Testimonials = () => {
                         <h2 className="text-center text-xl md:text-3xl pb-2">{item.comment}</h2>
                         <h2 className="text-end text-base md:text-xl italic">- {item.userfirstname}&nbsp;{item.userlastname}</h2>
                     </section>))}
-                <header className='text-center text-xl md:text-3xl pb-2 mt-10'>Post About Your Experience with Revival</header>
+                <header className='text-center text-xl md:text-2xl lg:text-3xl pb-2 mt-10'>Post About Your Experience with Revival</header>
                 <form onSubmit={handleSubmit} className="text-[#f5f5f5] flex flex-col content-center w-[80%] lg:w-[50%] mb-10">
                     <article className='comments-form flex flex-col rounded-xl'>
                         <input onChange={handleChange}
