@@ -7,7 +7,7 @@ const BandMember = () => {
             {/* large */}
             <article className='row-container hidden lg:flex'>
                 {BandMembers.slice(0, 3).map((member) => (
-                    <ol key={member.id} className='flex flex-col items-center py-2'>
+                    <ol key={member.id} className='band-member-container flex flex-col items-center py-2'>
                         <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
                         <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-xl' />
                         <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
@@ -33,7 +33,7 @@ const BandMember = () => {
             </article>
             <article className='row-container hidden lg:flex'>
                 {BandMembers.slice(3, 6).map((member) => (
-                    <ol key={member.id} className='flex flex-col items-center py-2'>
+                    <ol key={member.id} className='band-member-container flex flex-col items-center py-2'>
                         <li key={member.name} className='member-name text-2xl pb-1'>{member.name}</li>
                         <img src={member.pic} alt='member pic' className='member-pic w-4/5 pb-1 rounded-xl' />
                         <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
