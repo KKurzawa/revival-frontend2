@@ -4,7 +4,7 @@ padding: 0;
 margin: 0;
 scroll-behavior: smooth;
 font-family: "Michroma", sans-serif;
-/* background-color: #06071E; */
+background-color: #06071E;
 
 /* variables */
 
@@ -27,11 +27,11 @@ font-family: "Michroma", sans-serif;
 --background-repeat: repeat;
 --background-width: 100%;
 --background-height: 100%;
---background-z-index: 0;
+/* --background-z-index: 0; */
 --background-opacity: .2;
 }
 
 
 #root{
-    background-color: #06071E;
+    /* background-color: #06071E; */
 }
