@@ -13,5 +13,6 @@
     }
 }
 .shows-header{
-    border-bottom: solid 1px rgba(245, 245, 245, 0.209);
+    border-top: var(--border-one);
+    border-bottom: var(--border-two);
 }

@@ -1,4 +1,5 @@
 .band-header {
-    border-bottom: var(--border-one);
+    border-bottom: var(--border-two);
+    border-top:var(--border-two)
 }
 

@@ -1,5 +1,11 @@
 .contact-header{
-    border-bottom: var(--border-one);
+    border-top: var(--border-two);
+    border-bottom: var(--border-two);
+}
+
+.contact-top-link{
+    border-top: var(--border-one);
+    border-bottom: var(--border-two)
 }
 
 .user-name,

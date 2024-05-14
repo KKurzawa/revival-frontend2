@@ -1,10 +1,8 @@
-.video-header,
 .revival,
 .dont,
 .every,
 .les,
-.large-videos-container,
-.video-top-link {
+.large-videos-container{
     border-bottom: var(--border-one);
 }
 
@@ -31,4 +29,9 @@ iframe,
 .video-top-link{
     z-index: 1;
     position: relative;
+}
+
+.video-header{
+    border-bottom: var(--border-two);
+    border-top: var(--border-two);
 }

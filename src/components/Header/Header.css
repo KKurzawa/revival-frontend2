@@ -17,6 +17,6 @@
 
 .header-pic,
 .mobile-header-pic{
-    border-top: var(--border-one);
-    border-bottom: var(--border-one);
+    border-top: var(--border-two);
+    border-bottom: var(--border-two);
 }

@@ -1,6 +1,5 @@
 
-.row-container,
-.band-top-link{
+.row-container{
     border-bottom: var(--border-one);
 
 }

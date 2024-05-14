@@ -1,11 +1,15 @@
-.testimonials-header,
-.comment-name{
+.comment-name,
+.contact-top-link{
     border-bottom: var(--border-one);
 }
 
 .testimonials-top-link{
     border-top: var(--border-one);
-    border-bottom: var(--border-one);
+}
+
+.testimonials-header{
+    border-top: var(--border-two);
+    border-bottom: var(--border-two);
 }
 
 
@@ -32,9 +36,4 @@
     height: var(--background-height);
     z-index: var(--background-z-index);
     opacity: var(--background-opacity);
-}
-
-.contact-top-link{
-    border-top: var(--border-one);
-    border-bottom: var(--border-one)
 }

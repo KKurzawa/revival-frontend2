@@ -22,7 +22,6 @@ z-index: 1;
     opacity: var(--background-opacity);
 }
 
-.tckt-btn,
-.shows-top-link{
+.tckt-btn{
     border-bottom: var(--border-one);
 }
