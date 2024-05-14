@@ -24,6 +24,12 @@
     opacity: var(--background-opacity);
 }
 
+@media only screen and (max-width: 768px) {
+    .videos-container::before {
+       background-image: var(--background-image-three);
+     }
+   }
+
 .single-video-header,
 iframe,
 .video-top-link{

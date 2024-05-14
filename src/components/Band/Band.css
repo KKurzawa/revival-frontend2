@@ -3,3 +3,19 @@
     border-top:var(--border-two)
 }
 
+.band-member-contianer{
+    position: relative;
+}
+
+.band-member-contianer::before{
+    position: var(--background-image-position);
+    pointer-events: var(--background-pointer-events);
+    background-image: var(--background-image);
+    background-size: var(--background-size);
+    background-position: var(--background-position);
+    background-repeat: var(--background-repeat);
+    width: var(--background-width);
+    height: var(--background-height);
+    z-index: var(--background-z-index);
+    opacity: var(--background-opacity);
+}

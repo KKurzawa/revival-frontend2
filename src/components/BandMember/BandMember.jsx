@@ -58,9 +58,9 @@ const BandMember = () => {
                 ))}
             </article>
             {/* small and medium */}
-            <article className='flex flex-col lg:hidden'>
+            <article className='row-container flex flex-col lg:hidden'>
                 {BandMembers.map((member) => (
-                    <ol key={member.id} className='row-container flex flex-col items-center py-4'>
+                    <ol key={member.id} className='band-member-container flex flex-col items-center py-4'>
                         <li key={member.name} className='member-name pb-1 text-2xl'>{member.name}</li>
                         <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-xl' />
                         <li className='member-description pb-1 text-[.6rem] md:text-[1rem]'>{member.description}</li>

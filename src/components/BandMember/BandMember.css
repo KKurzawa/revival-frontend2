@@ -1,5 +1,4 @@
-
-.row-container{
+.band-member-container{
     border-bottom: var(--border-one);
 
 }
@@ -20,6 +19,12 @@
     z-index: var(--background-z-index);
     opacity: var(--background-opacity);
 }
+
+@media only screen and (max-width: 768px) {
+    .member-container::before {
+       background-image: var(--background-image-four);
+     }
+   }
 
 .member-container,
 .member-name,
