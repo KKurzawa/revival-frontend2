@@ -38,8 +38,4 @@
     opacity: var(--background-opacity);
 }
 
-@media only screen and (max-width: 768px) {
-    .comments-container::before {
-       background-image: var(--background-image-two);
-     }
-   }
+

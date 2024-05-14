@@ -22,12 +22,6 @@ z-index: 1;
     opacity: var(--background-opacity);
 }
 
-@media only screen and (max-width: 768px) {
-   .shows-container::before {
-      background-image: var(--background-image-two);
-    }
-  }
-
 .tckt-btn{
     border-bottom: var(--border-one);
 }
