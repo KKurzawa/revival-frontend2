@@ -42,7 +42,7 @@ const Contact = () => {
     }
     return (
         <main id='contact' className='flex flex-col items-center text-[whitesmoke]'>
-            <header className='contact-header py-2 md:py-5 w-full text-center'><span className='text-[2rem]'>C</span><span className='text-3xl'>ONTAC</span><span className='text-[2rem]'>T</span></header>
+            <header className='contact-header py-2 md:py-5 w-full text-center'><span className='contact-header-text text-[2rem]'>C</span><span className='contact-header-text text-3xl'>ONTAC</span><span className='contact-header-text text-[2rem]'>T</span></header>
             <article className='email-form-container flex flex-col items-center w-full'>
                 <form onSubmit={handleSubmit} className='text-[#f5f5f5] flex flex-col content-center w-[80%] lg:w-[50%] my-10'>
                     <article className='contact-form flex flex-col rounded-xl'>

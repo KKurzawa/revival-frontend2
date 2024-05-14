@@ -3,6 +3,10 @@
 
 }
 
+.shows-header{
+    background-color: #120204;
+}
+
 .member-container{
     position: relative;
 }
@@ -20,11 +24,10 @@
     opacity: var(--background-opacity);
 }
 
-.member-container,
-.member-name,
-.member-pic,
-.member-description,
-.media-icons,
-.band-top-link{
+.member-pic{
     z-index: 1;
+}
+
+.band-top-link{
+    background-color: var(--background-color-one);
 }

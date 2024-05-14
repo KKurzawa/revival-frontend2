@@ -1,7 +1,17 @@
 footer{
     animation: main-fade-in 1s linear 1 both;
-    bottom: 0
-    /* background-color: black; */
+    bottom: 0;
+    background-color: var(--background-color-two);
+}
+
+i,
+i a,
+.mailto-link,
+.phone-link,
+.copyright,
+.dev-link,
+.icon-container{
+    background-color: var(--background-color-two);
 }
 
 @keyframes main-fade-in {

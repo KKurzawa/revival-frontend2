@@ -64,7 +64,7 @@ const Testimonials = () => {
 
     return (
         <main id='testimonials' className='flex flex-col items-center text-[whitesmoke]'>
-            <header className='testimonials-header py-2 md:py-5 w-full text-center'><span className='text-[1.75rem] md:text-[2rem]'>T</span><span className='text-[1.55rem] md:text-3xl'>ESTIMONIAL</span><span className='text-[1.75rem] md:text-[2rem]'>S</span></header>
+            <header className='testimonials-header py-2 md:py-5 w-full text-center'><span className='testimonials-header-text text-[1.75rem] md:text-[2rem]'>T</span><span className='testimonials-header-text text-[1.55rem] md:text-3xl'>ESTIMONIAL</span><span className='testimonials-header-text text-[1.75rem] md:text-[2rem]'>S</span></header>
             <article className="comments-container flex flex-col items-center text-[whitesmoke]">
                 {comments.map((item) => (
                     <section key={item.comment} className="comment-name px-5 lg:px-20 py-10">

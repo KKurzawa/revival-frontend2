@@ -3,9 +3,15 @@
     border-bottom: var(--border-two);
 }
 
+.contact-header,
+.contact-header-text{
+    background-color: var(--background-color-two);
+}
+
 .contact-top-link{
     border-top: var(--border-one);
-    border-bottom: var(--border-two)
+    border-bottom: var(--border-two);
+    background-color: var(--background-color-one);
 }
 
 .user-name,

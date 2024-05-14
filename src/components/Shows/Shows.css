@@ -4,6 +4,8 @@
     z-index: 0;
 }
 
+
+
 @keyframes shows-fade-in {
     0%{
         opacity: 0;
@@ -15,4 +17,9 @@
 .shows-header{
     border-top: var(--border-one);
     border-bottom: var(--border-two);
+}
+
+.shows-header,
+.shows-header-text{
+    background-color: var(--background-color-two);
 }

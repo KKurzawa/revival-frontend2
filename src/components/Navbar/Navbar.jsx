@@ -9,7 +9,7 @@ const Navbar = () => {
                     const element = document.querySelector(link.link);
                     element?.scrollIntoView({ behavior: 'smooth' })
                 }
-                    , 250)} className='nav-link flex items-center px-2 text-[whitesmoke]'><span className='flex items-center justify-center pb-[.1rem] text-[1.35rem]'>{link.first}</span><span className='text-xl'>{link.title}</span><span className='flex items-center justify-center pb-[.1rem] text-[1.35rem]'>{link.last}</span></button>
+                    , 250)} className='nav-link flex items-center px-2 text-[whitesmoke]'><span className='nav-link-text flex items-center justify-center pb-[.05rem] text-[1.35rem]'>{link.first}</span><span className='nav-link-text text-xl'>{link.title}</span><span className='nav-link-text flex items-center justify-center pb-[.05rem] text-[1.35rem]'>{link.last}</span></button>
             ))}
         </nav>
     )

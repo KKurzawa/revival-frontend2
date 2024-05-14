@@ -3,7 +3,7 @@ import './Video.css'
 const Video = () => {
     return (
         <main id='videos' className='flex flex-col items-center w-full text-[whitesmoke]'>
-            <header className='video-header py-2 md:py-5 w-full text-center'><span className='text-[1.75rem] md:text-[2rem]'>V</span><span className='text-3xl'>IDEO</span><span className='text-[1.75rem] md:text-[2rem]'>S</span></header>
+            <header className='video-header py-2 md:py-5 w-full text-center'><span className='video-header-text text-[1.75rem] md:text-[2rem]'>V</span><span className='video-header-text text-3xl'>IDEO</span><span className='video-header-text text-[1.75rem] md:text-[2rem]'>S</span></header>
             <section className='videos-container w-full'>
                 {/* small */}
                 <article className='small-videos-container flex md:hidden flex-col items-center w-full'>

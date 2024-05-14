@@ -1,10 +1,12 @@
 * {
+/* global styles */
+
 box-sizing: border-box;
 padding: 0;
 margin: 0;
 scroll-behavior: smooth;
 font-family: "Michroma", sans-serif;
-background-color: #06071E;
+background-color: var(--background-color-one);
 
 /* variables */
 
@@ -15,7 +17,6 @@ background-color: #06071E;
 
 /* background images */
 
- 
 --background-image-position: absolute;
 --background-pointer-events: none;
 --background-image: url('/public/peachPic.png');
@@ -28,10 +29,13 @@ background-color: #06071E;
 --background-width: 100%;
 --background-height: 100%;
 /* --background-z-index: 0; */
---background-opacity: .2;
+--background-opacity: .15;
+
+/* colors */
+
+--background-color-one: #040413;
+/* --background-color-two: #030411; */
+--background-color-two: white
+
 }
 
-
-#root{
-    /* background-color: #06071E; */
-}

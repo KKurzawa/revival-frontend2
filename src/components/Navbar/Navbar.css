@@ -4,6 +4,11 @@
     transition: 1s;
 }
 
+nav,
+.nav-link-text{
+  background-color: var(--background-color-two);
+}
+
 ::before,
 ::after {
     position: absolute;

@@ -5,11 +5,17 @@
 
 .testimonials-top-link{
     border-top: var(--border-one);
+    background-color: var(--background-color-one);
 }
 
 .testimonials-header{
     border-top: var(--border-two);
     border-bottom: var(--border-two);
+}
+
+.testimonials-header,
+.testimonials-header-text{
+    background-color: var(--background-color-two);
 }
 
 
