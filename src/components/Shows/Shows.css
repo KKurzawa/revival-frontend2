@@ -19,7 +19,6 @@
     border-bottom: var(--border-two);
 }
 
-.shows-header,
-.shows-header-text{
+.shows-header{
     background-color: var(--background-color-two);
 }
