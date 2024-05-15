@@ -6,14 +6,10 @@
     border-bottom: var(--border-one);
 }
 
-.video-header,
-.video-header-text{
-    background-color: var(--background-color-two);
-}
 
 .videos-container{
     position: relative;
-    /* z-index: 1; */
+    background-color: var(--background-color-one);
 }
 
 .videos-container::before{
@@ -29,13 +25,8 @@
     opacity: var(--background-opacity);
 }
 
-
-
-.single-video-header,
-iframe,
-.video-top-link{
+iframe{
     z-index: 1;
-    position: relative;
 }
 
 .video-header{
@@ -43,6 +34,3 @@ iframe,
     border-top: var(--border-two);
 }
 
-.video-top-link{
-    background-color: var(--background-color-one);
-}

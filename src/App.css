@@ -6,7 +6,7 @@ padding: 0;
 margin: 0;
 scroll-behavior: smooth;
 font-family: "Michroma", sans-serif;
-background-color: var(--background-color-one);
+/* background-color: var(--background-color-two); */
 
 /* variables */
 
@@ -28,14 +28,19 @@ background-color: var(--background-color-one);
 --background-repeat: repeat;
 --background-width: 100%;
 --background-height: 100%;
-/* --background-z-index: 0; */
 --background-opacity: .15;
 
 /* colors */
 
+/* --background-color-one: red; */
 --background-color-one: #040413;
-/* --background-color-two: #030411; */
---background-color-two: #581c04;
+--background-color-two: #030411;
 
 }
+
+#root{
+    background-color: var(--background-color-two);
+}
+
+
 

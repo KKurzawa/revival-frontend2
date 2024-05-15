@@ -1,8 +1,10 @@
 .shows-container{
     position: relative;
+    background-color: var(--background-color-one);
 }
 
 .shows-container::before{
+    
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);
     background-image: var(--background-image);
@@ -19,6 +21,4 @@
     border-bottom: var(--border-one);
 }
 
-.shows-top-link{
-    background-color: var(--background-color-one);
-}
+

@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className='footer-container flex flex-col w-full items-center h-auto py-3 text-[whitesmoke]'>
             <article className='icon-container flex flex-row my-1'>
                 {footerIcons.map((icon) => (
-                    <i key={icon.id} className='footer-icons mx-4 text-3xl'><a className='footer-icons-link' href={icon.link}>{icon.icon}</a></i>
+                    <i key={icon.id} className='footer-icons rounded-xl mx-4 text-3xl'><a className='footer-icons-link' href={icon.link}>{icon.icon}</a></i>
                 ))}
             </article>
             <h2 className='mailto-link py-[.15rem] text-md md:text-xl'> <button onClick={() => setTimeout(() =>

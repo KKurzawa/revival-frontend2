@@ -4,11 +4,12 @@
 }
 
 .shows-header{
-    background-color: #120204;
+    /* background-color: #120204; */
 }
 
 .member-container{
     position: relative;
+    background-color: var(--background-color-one);
 }
 
 .member-container::before{
@@ -29,5 +30,5 @@
 }
 
 .band-top-link{
-    background-color: black;
+    /* background-color: black; */
 }

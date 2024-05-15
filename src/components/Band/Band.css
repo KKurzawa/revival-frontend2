@@ -5,7 +5,7 @@
 
 .band-header,
 .band-header-text {
-    background-color: var(--background-color-two);
+    /* background-color: var(--background-color-two); */
 }
 
 .band-member-contianer{

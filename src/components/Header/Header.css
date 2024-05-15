@@ -1,7 +1,7 @@
 .header-container,
 .mobile-header-container {
     animation: header-fade-in 1s linear 1 both;
-    background-color: #030411;
+    /* background-color: #030411; */
 }
 
 @keyframes header-fade-in {

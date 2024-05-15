@@ -1,9 +1,9 @@
-import { FaFacebookF, FaInstagramSquare, FaYoutube } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 
 export const footerIcons = [
     {
         id: 1,
-        icon: <FaFacebookF />,
+        icon: <FaFacebookSquare />,
         link: 'https://www.facebook.com/revivalmusicdetroit'
     },
     {

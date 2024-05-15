@@ -6,7 +6,7 @@
 
 nav,
 .nav-link-text{
-  background-color: var(--background-color-two);
+  /* background-color: var(--background-color-two); */
 }
 
 ::before,

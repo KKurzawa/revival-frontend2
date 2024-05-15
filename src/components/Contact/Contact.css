@@ -3,15 +3,9 @@
     border-bottom: var(--border-two);
 }
 
-.contact-header,
-.contact-header-text{
-    background-color: var(--background-color-two);
-}
-
 .contact-top-link{
     border-top: var(--border-one);
     border-bottom: var(--border-two);
-    background-color: var(--background-color-one);
 }
 
 .user-name,
@@ -23,6 +17,7 @@
 
 .email-form-container{
     position:relative;
+    background-color: var(--background-color-one);
 }
 .email-form-container::before{
     position: var(--background-image-position);
