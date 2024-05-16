@@ -34,3 +34,13 @@ iframe{
     border-top: var(--border-two);
 }
 
+
+.video-top-link{
+    transition: 500ms ease-in-out;
+    color: var(--text-color-one);
+}
+
+.video-top-link:hover{
+    color: var(--text-color-two);
+}
+

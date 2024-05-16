@@ -13,8 +13,27 @@
     background-repeat: var(--background-repeat);
     width: var(--background-width);
     height: var(--background-height);
-    z-index: var(--background-z-index);
     opacity: var(--background-opacity);
+}
+
+.venue,
+.tckt-btn,
+.shows-top-link{
+    transition: 500ms ease-in-out;
+    color: var(--text-color-one);
+}
+.venue:hover,
+.tckt-btn:hover,
+.shows-top-link:hover{
+    color: var(--text-color-two);
+}
+
+@keyframes text-hover {
+    0%{
+        color: var(--text-color-one)
+    } 100% {
+        color: var(--text-color-two)
+    }
 }
 
 .tckt-btn{

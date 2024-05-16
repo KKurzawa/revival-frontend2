@@ -6,6 +6,12 @@
 .contact-top-link{
     border-top: var(--border-one);
     border-bottom: var(--border-two);
+    transition: 500ms ease-in-out;
+    color: var(--text-color-one);
+}
+
+.contact-top-link:hover{
+    color: var(--text-color-two);
 }
 
 .user-name,

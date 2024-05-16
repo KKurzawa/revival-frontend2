@@ -12,19 +12,19 @@ const BandMember = () => {
                         <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-xl' />
                         <li className='member-description pb-1 text-[.7rem]'>{member.description}</li>
                         <li className='media-icons flex justify-evenly w-40 text-xl'>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.facebookLink, '_blank')
                                 , 500)}>{member.facebookIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.instagramLink, '_blank')
                                 , 500)}>{member.instagramIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.websiteLink, '_blank')
                                 , 500)}>{member.websiteIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.appleMusicLink, '_blank')
                                 , 500)}>{member.appleMusicIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.spotifyLink, '_blank')
                                 , 500)}>{member.spotifyIcon}</button></i>
                         </li>
@@ -65,19 +65,19 @@ const BandMember = () => {
                         <img src={member.pic} alt='member pic' className='member-pic pb-1 w-4/5 rounded-xl' />
                         <li className='member-description pb-1 text-[.6rem] md:text-[1rem]'>{member.description}</li>
                         <li className='media-icons flex justify-evenly w-40 text-xl'>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.facebookLink, '_blank')
                                 , 500)}>{member.facebookIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.instagramLink, '_blank')
                                 , 500)}>{member.instagramIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.websiteLink, '_blank')
                                 , 500)}>{member.websiteIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.appleMusicLink, '_blank')
                                 , 500)}>{member.appleMusicIcon}</button></i>
-                            <i><button onClick={() => setTimeout(() =>
+                            <i className='media-icon'><button className='media-icon' onClick={() => setTimeout(() =>
                                 window.open(member.spotifyLink, '_blank')
                                 , 500)}>{member.spotifyIcon}</button></i>
                         </li>

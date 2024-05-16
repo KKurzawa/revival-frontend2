@@ -5,6 +5,12 @@
 
 .testimonials-top-link{
     border-top: var(--border-one);
+    transition: 500ms ease-in-out;
+    color: var(--text-color-one);
+}
+
+.testimonials-top-link:hover{
+    color: var(--text-color-two);
 }
 
 .testimonials-header{

@@ -3,8 +3,14 @@
 
 }
 
-.shows-header{
-    /* background-color: #120204; */
+.media-icon,
+.band-top-link{
+    transition: 500ms ease-in-out;
+    color: var(--text-color-one);
+}
+.media-icon:hover,
+.band-top-link:hover{
+    color: var(--text-color-two);
 }
 
 .member-container{

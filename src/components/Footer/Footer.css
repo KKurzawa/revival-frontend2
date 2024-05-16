@@ -22,3 +22,20 @@ footer{
         opacity: 1;
     }
 }
+
+.footer-icons,
+.footer-icons-link,
+.mailto-link,
+.phone-link,
+.dev-link{
+transition: 500ms ease-in-out;
+color: var(--text-color-one);
+}
+
+.footer-icons:hover,
+.footer-icons-link:hover,
+.mailto-link:hover,
+.phone-link:hover,
+.dev-link:hover{
+color: var(--text-color-two);
+}
