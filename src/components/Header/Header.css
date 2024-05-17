@@ -1,3 +1,7 @@
+#top{
+    position: relative;
+    z-index: 1;
+}
 .header-container,
 .mobile-header-container {
     animation: header-fade-in 1s linear 1 both;
