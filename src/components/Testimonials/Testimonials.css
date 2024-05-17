@@ -22,8 +22,20 @@
 .user-last-name,
 .user-experience,
 .post-button{
-    border: var(--border-one)
+    border: var(--border-two)
 }
+
+.post-button{
+    transition: 500ms ease-in-out;
+    background-color: var(--background-color-one);
+    color: var(--text-color-one)
+}
+
+.post-button:hover{
+    background-color: var(--text-color-two);
+    color: var(--background-color-one)
+}
+
 .comments-container,
 .form-container{
     position: relative;

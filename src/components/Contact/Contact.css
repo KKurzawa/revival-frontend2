@@ -14,11 +14,23 @@
     color: var(--text-color-two);
 }
 
+.submit-button{
+    transition: 500ms ease-in-out;
+    background-color: var(--background-color-one);
+    color: var(--text-color-one);
+    border: var(--border-two)
+}
+
+.submit-button:hover{
+    background-color: var(--text-color-two);
+    color: var(--background-color-one)
+}
+
 .user-name,
 .user-email,
 .user-subject,
 .user-message{
-    border: var(--border-one)
+    border: var(--border-two)
 }
 
 .email-form-container{

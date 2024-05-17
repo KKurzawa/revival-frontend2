@@ -19,7 +19,9 @@ const Testimonials = () => {
 
     function validateComment() {
         if (!input.userfirstname || !input.userlastname || !input.comment) {
-            alert('You must enter your first name, last name, and experience to submit.')
+            setTimeout(() =>
+                alert('You must enter your first name, last name, and experience to submit.')
+                , 500)
         }
     }
 
@@ -45,7 +47,6 @@ const Testimonials = () => {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log('submitted');
         validateComment();
         const newComment = {
             userfirstname: input.userfirstname,

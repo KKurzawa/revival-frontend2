@@ -35,7 +35,7 @@
     75%{
         transform: rotateX(360deg);
         width: 35.75rem;
-        filter:brightness(400%) 
+        filter:brightness(200%) 
     }
     100% {
         opacity: 1;
@@ -55,7 +55,7 @@
     75%{
         transform: rotateX(360deg);
         width: 90%;
-        filter:brightness(400%)
+        filter:brightness(200%)
     }
     100% {
         opacity: 1;
@@ -71,7 +71,7 @@
         filter:brightness(100%)
     }
     85% {
-        filter:brightness(400%)
+        filter:brightness(200%)
     }
     100% {
         opacity: 1;

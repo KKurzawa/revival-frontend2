@@ -13,7 +13,9 @@ const Contact = () => {
         e.preventDefault();
 
         if (!validateEmail(email)) {
-            alert('Please Enter A Valid Email');
+            setTimeout(() =>
+                alert('Please Enter A Valid Email')
+                , 500)
             return;
         }
 
@@ -77,7 +79,7 @@ const Contact = () => {
                         >
                         </textarea>
                     </article>
-                    <button className='post-button w-fit p-3 mt-1 rounded-xl'>Submit</button>
+                    <button className='submit-button w-fit p-3 mt-1 rounded-xl'>Submit</button>
                 </form>
                 <a href='/#top' className='contact-top-link flex justify-center py-2 w-full text-xl'>To the Top</a>
             </article>

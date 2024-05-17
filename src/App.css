@@ -6,7 +6,7 @@ padding: 0;
 margin: 0;
 scroll-behavior: smooth;
 font-family: "Michroma", sans-serif;
-/* background-color: var(--background-color-two); */
+background-color: var(--background-color-two);
 
 /* variables */
 
@@ -41,7 +41,7 @@ font-family: "Michroma", sans-serif;
 }
 
 #root{
-    background-color: var(--background-color-two);
+    /* background-color: var(--background-color-two); */
 }
 
 

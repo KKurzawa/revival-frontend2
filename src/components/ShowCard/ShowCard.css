@@ -4,7 +4,6 @@
 }
 
 .shows-container::before{
-    
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);
     background-image: var(--background-image);
