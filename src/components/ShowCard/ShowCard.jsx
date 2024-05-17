@@ -40,7 +40,13 @@ const ShowCard = () => {
                     </ol>
                 ))}
             </article>
-            <a href='/#top' className='shows-top-link flex justify-center py-2 w-full text-xl'>To the Top</a>
+            <button onClick={() => setTimeout(() =>
+                window.scroll({
+                    top: 0,
+                    behavior: 'smooth'
+                })
+                , 500)}
+                className='shows-top-link flex justify-center py-2 w-full text-xl'>To the Top</button>
         </main>
     )
 }

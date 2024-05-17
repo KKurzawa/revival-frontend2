@@ -106,7 +106,13 @@ const Testimonials = () => {
                     </article>
                     <button className="post-button w-fit p-3 mt-1 rounded-xl">Add Post</button>
                 </form>
-                <a href='/#top' className='testimonials-top-link flex justify-center py-2 w-full text-xl'>To the Top</a>
+                <button onClick={() => setTimeout(() =>
+                    window.scroll({
+                        top: 0,
+                        behavior: 'smooth'
+                    })
+                    , 500)}
+                    className='testimonials-top-link flex justify-center py-2 w-full text-xl'>To the Top</button>
             </article>
         </main>
     )

@@ -64,7 +64,13 @@ const Video = () => {
                         <iframe className='rounded-xl' width="560" height="315" src="https://www.youtube.com/embed/o3-RIRM3csI?si=hda7GVojICh70yRl" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                     </section>
                 </article>
-                <a href='/#top' className='video-top-link flex justify-center py-2 w-full text-xl'>To the Top</a>
+                <button onClick={() => setTimeout(() =>
+                    window.scroll({
+                        top: 0,
+                        behavior: 'smooth'
+                    })
+                    , 500)}
+                    className='video-top-link flex justify-center py-2 w-full text-xl'>To the Top</button>
             </section>
         </main>
     )

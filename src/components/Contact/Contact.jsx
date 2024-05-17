@@ -81,7 +81,12 @@ const Contact = () => {
                     </article>
                     <button className='submit-button w-fit p-3 mt-1 rounded-xl'>Submit</button>
                 </form>
-                <a href='/#top' className='contact-top-link flex justify-center py-2 w-full text-xl'>To the Top</a>
+                <button onClick={() => setTimeout(() =>
+                    window.scroll({
+                        top: 0,
+                        behavior: 'smooth'
+                    })
+                    , 500)} className='contact-top-link flex justify-center py-2 w-full text-xl'>To the Top</button>
             </article>
         </main>
     )
