@@ -8,7 +8,8 @@
 
 
 .individual-nav-link {
-    border: var(--border-one);
+    /* border: var(--border-one); */
+    border: var(--border-three);
     color: var(--background-color-two);
     background-color: var(--background-color-two);
     background: var(--linear-gradient);
