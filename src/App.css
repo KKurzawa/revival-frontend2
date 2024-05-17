@@ -6,7 +6,7 @@ padding: 0;
 margin: 0;
 scroll-behavior: smooth;
 font-family: "Michroma", sans-serif;
-background-color: var(--background-color-two);
+/* background-color: var(--background-color-two); */
 
 /* variables */
 
@@ -28,20 +28,22 @@ background-color: var(--background-color-two);
 --background-repeat: repeat;
 --background-width: 100%;
 --background-height: 100%;
---background-opacity: .15;
+--background-opacity: .2;
 
 /* colors */
 
 /* --background-color-one: red; */
 --background-color-one: #040413;
 --background-color-two: #040618;
+--background-color-three: #B75A6F;
 --underline-animation-color: rgba(245, 245, 245, 0.359);
 --text-color-one: whitesmoke;
---text-color-two: #e5b26a;;
+--text-color-two: #D9B17A;
+--linear-gradient: linear-gradient(90deg, whitesmoke, rgba(245, 245, 245, 0.359), #040413);
 }
 
 #root{
-    /* background-color: var(--background-color-two); */
+    background-color: var(--background-color-two);
 }
 
 

@@ -5,3 +5,27 @@
     z-index: 2;
     position: relative;
 }
+
+
+.individual-nav-link {
+    border: var(--border-one);
+    color: var(--background-color-two);
+    background-color: var(--background-color-two);
+    background: var(--linear-gradient);
+    /* transition: 1s ease-in-out; */
+}
+
+.individual-nav-link:hover{
+    /* background: var(--linear-gradient); */
+    /* color: var(--backgroound-color-two); */
+}
+ 
+.nav-link{
+    background-color: var(--background-two);
+}
+
+
+.dropdown{
+    border-bottom: var(--border-two);
+    background-color: var(--background-color-two);
+}

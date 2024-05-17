@@ -41,12 +41,14 @@ const MobileNavbar = () => {
                                             delay: 0.1 + idx / 10,
                                         }}
                                         key={route.id}
-                                        className="w-full p-[0.08rem] rounded-lg bg-gradient-to-tr from-[whitesmoke] via-[gray] to-black bg-black"
+                                        className="individual-nav-link w-full rounded-xl"
                                     >
                                         <a
-                                            onClick={() => setIsOpen((prev) => !prev)}
+                                            onClick={() =>
+                                                setIsOpen((prev) => !prev)
+                                            }
                                             className={
-                                                "navlink flex items-center justify-start w-full p-[.6rem] rounded-lg"
+                                                "navlink flex items-center justify-start w-full p-[.6rem] rounded-xl"
                                             }
                                             href={route.link}
                                         >
