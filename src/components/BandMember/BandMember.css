@@ -1,16 +1,5 @@
 .band-member-container{
     border-bottom: var(--border-one);
-
-}
-
-.media-icon,
-.band-top-link{
-    transition: 500ms ease-in-out;
-    color: var(--text-color-one);
-}
-.media-icon:hover,
-.band-top-link:hover{
-    color: var(--text-color-two);
 }
 
 .member-container{
@@ -31,10 +20,23 @@
     opacity: var(--background-opacity);
 }
 
-.member-pic{
-    z-index: 1;
+.member-name{
+    color: var(--text-color-one)
 }
 
-.band-top-link{
-    /* background-color: black; */
+.member-pic{
+    z-index: 1;
+    filter: sepia(.35);
 }
+
+.media-icon,
+.band-top-link{
+    transition: 500ms ease-in-out;
+    color: var(--text-color-one);
+}
+.media-icon:hover,
+.band-top-link:hover{
+    color: var(--text-color-two);
+}
+
+

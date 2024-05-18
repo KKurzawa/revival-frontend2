@@ -1,11 +1,10 @@
+#band{
+    color: var(--text-color-one)
+}
+
 .band-header {
     border-bottom: var(--border-two);
     border-top:var(--border-two)
-}
-
-.band-header,
-.band-header-text {
-    /* background-color: var(--background-color-two); */
 }
 
 .band-member-contianer{

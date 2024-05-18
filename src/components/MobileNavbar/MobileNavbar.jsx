@@ -43,19 +43,19 @@ const MobileNavbar = () => {
                                         key={route.id}
                                         className="individual-nav-link w-full rounded-xl"
                                     >
-                                        <a
-                                            onClick={() =>
-                                                setIsOpen((prev) => !prev)
-                                            }
-                                            className={
-                                                "navlink flex items-center justify-start w-full p-[.6rem] rounded-xl"
-                                            }
-                                            href={route.link}
-                                        >
-                                            <span className='text-[1.2rem]'>{route.first}</span>
-                                            <span className="flex gap-1 text-lg">{route.title}</span>
-                                            <span className='text-[1.2rem]'>{route.last}</span>
-                                        </a>
+                                        <article className='nav-link-border rounded-xl'>
+                                            <a
+                                                onClick={() => setIsOpen((prev) => !prev)}
+                                                className={
+                                                    "navlink flex items-center justify-start w-full p-[.6rem] rounded-xl"
+                                                }
+                                                href={route.link}
+                                            >
+                                                <span className='text-[1.2rem]'>{route.first}</span>
+                                                <span className="flex gap-1 text-lg">{route.title}</span>
+                                                <span className='text-[1.2rem]'>{route.last}</span>
+                                            </a>
+                                        </article>
                                     </motion.li>
                                 );
                             })}
