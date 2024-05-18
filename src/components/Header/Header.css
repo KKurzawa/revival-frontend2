@@ -16,11 +16,9 @@
     }
 }
 
-.header-pic{
-    filter:sepia(.35)
-}
 .header-pic,
 .mobile-header-pic{
     border-top: var(--border-two);
     border-bottom: var(--border-two);
+    filter:sepia(.35)
 }

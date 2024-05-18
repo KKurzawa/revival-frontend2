@@ -29,7 +29,7 @@ font-family: "Michroma", sans-serif;
 --background-repeat: repeat;
 --background-width: 100%;
 --background-height: 100%;
---background-opacity: .2;
+--background-opacity: .175;
 
 /* colors */
 
@@ -39,7 +39,7 @@ font-family: "Michroma", sans-serif;
 --background-color-three: #B75A6F;
 --underline-animation-color: rgba(245, 245, 245, 0.359);
 --text-color-one: whitesmoke;
---text-color-two: #f8ce4285;
+--text-color-two: #f8ce42;
 --linear-gradient-one: linear-gradient(90deg, whitesmoke, rgba(245, 245, 245, 0.359), #040413);
 }
 

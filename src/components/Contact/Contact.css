@@ -17,6 +17,7 @@
 .submit-button{
     transition: 500ms ease-in-out;
     background-color: var(--background-color-one);
+    z-index: 1;
     color: var(--text-color-one);
     border: var(--border-two)
 }
@@ -30,13 +31,15 @@
 .user-email,
 .user-subject,
 .user-message{
-    border: var(--border-two)
+    border: var(--border-two);
+    background-color: var(--background-color-two)
 }
 
 .email-form-container{
     position:relative;
     background-color: var(--background-color-one);
 }
+
 .email-form-container::before{
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);

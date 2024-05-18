@@ -28,7 +28,8 @@
 .post-button{
     transition: 500ms ease-in-out;
     background-color: var(--background-color-one);
-    color: var(--text-color-one)
+    color: var(--text-color-one);
+    z-index: 1;
 }
 
 .post-button:hover{

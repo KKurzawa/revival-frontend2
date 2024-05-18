@@ -1,18 +1,29 @@
 .landing-main{
-    animation: main-fade-out 2s linear 5s 1 both;
-
+    animation: main-fade-out 2s linear 6s 1 both;
 }
 
 .landing-logo{
-    animation: logo-fade-in 6s linear 0s 1 ;
+    animation: logo-fade-in 4s linear 0s 1 ;
 }
 
 .mobile-landing-logo{
-    animation: mobile-logo-fade-in 6s linear 0s 1 ;
+    animation: mobile-logo-fade-in 4s linear 0s 1 ;
 }
 
 .landing-text{
-    animation: text-fade-in 3s linear 3s both;
+    animation: text-fade-in 1s linear 3s both;
+}
+
+.ultimate{
+    animation: text-fade-in 1s linear 3.5s both;
+}
+
+.allman{
+    animation: text-fade-in 1s linear 4s both;
+}
+
+.experience{
+    animation: text-fade-in 1s linear 4.5s both;
 }
 
 @keyframes main-fade-out {
@@ -29,19 +40,15 @@
         opacity: 0;
         transform: rotateX(270deg);
         width: 20rem;
-        filter:brightness(100%)
-        
     }
     75%{
         transform: rotateX(360deg);
         width: 35.75rem;
-        filter:brightness(200%) 
     }
     100% {
         opacity: 1;
         transform: rotateX(360deg);
         width: 35.75rem;
-        filter:brightness(100%)
     }
 }
 
@@ -50,31 +57,23 @@
         opacity: 0;
         transform: rotateX(270deg);
         width: 50%;
-        filter:brightness(100%)
     }
     75%{
         transform: rotateX(360deg);
         width: 90%;
-        filter:brightness(200%)
     }
     100% {
         opacity: 1;
         transform: rotateX(360deg);
         width: 90%;
-        filter:brightness(100%)
     }
 }
 
 @keyframes text-fade-in {
     0% {
         opacity: 0;
-        filter:brightness(100%)
-    }
-    85% {
-        filter:brightness(200%)
     }
     100% {
         opacity: 1;
-        filter:brightness(100%)
     }
 }
