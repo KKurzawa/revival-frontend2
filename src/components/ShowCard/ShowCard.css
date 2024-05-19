@@ -16,8 +16,8 @@
     opacity: var(--background-opacity);
 }
 
-.date,
 .venue,
+.date,
 .tckt-btn,
 .shows-top-link{
     transition: 500ms ease-in-out;

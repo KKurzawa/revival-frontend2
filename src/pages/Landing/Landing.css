@@ -22,8 +22,12 @@
     animation: text-fade-in 1s linear 4s both;
 }
 
-.experience{
+.brothers{
     animation: text-fade-in 1s linear 4.5s both;
+}
+
+.experience{
+    animation: text-fade-in 1s linear 5s both;
 }
 
 @keyframes main-fade-out {
