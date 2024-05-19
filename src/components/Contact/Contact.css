@@ -8,6 +8,7 @@
     border-bottom: var(--border-two);
     transition: 500ms ease-in-out;
     color: var(--text-color-one);
+    z-index: 1;
 }
 
 .contact-top-link:hover{
@@ -32,7 +33,8 @@
 .user-subject,
 .user-message{
     border: var(--border-two);
-    background-color: var(--background-color-two)
+    background-color: var(--background-color-two);
+    z-index: 1;
 }
 
 .email-form-container{
@@ -41,6 +43,7 @@
 }
 
 .email-form-container::before{
+    content: var(--background-content);
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);
     background-image: var(--background-image);

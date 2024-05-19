@@ -4,6 +4,7 @@
 }
 
 .shows-container::before{
+    content: var(--background-content);
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);
     background-image: var(--background-image);
@@ -15,11 +16,13 @@
     opacity: var(--background-opacity);
 }
 
+.date,
 .venue,
 .tckt-btn,
 .shows-top-link{
     transition: 500ms ease-in-out;
     color: var(--text-color-one);
+    z-index: 1;
 }
 .venue:hover,
 .tckt-btn:hover,

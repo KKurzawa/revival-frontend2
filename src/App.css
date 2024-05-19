@@ -14,10 +14,11 @@ font-family: "Michroma", sans-serif;
 
 --border-one: solid 1px rgba(245, 245, 245, 0.149);
 --border-two: solid 2px rgba(245, 245, 245, 0.359);
---border-three: solid 1px rgba(245, 245, 245, 0.123);
+--border-three: solid 1px rgba(245, 245, 245, 0.237);
 
 /* background images */
 
+--background-content: '';
 --background-image-position: absolute;
 --background-pointer-events: none;
 --background-image: url('/public/peachPic.png');
@@ -29,11 +30,10 @@ font-family: "Michroma", sans-serif;
 --background-repeat: repeat;
 --background-width: 100%;
 --background-height: 100%;
---background-opacity: .175;
+--background-opacity: .25;
 
 /* colors */
 
-/* --background-color-one: red; */
 --background-color-one: #040413;
 --background-color-two: #040618;
 --background-color-three: #B75A6F;

@@ -45,6 +45,7 @@
 
 .comments-container::before,
 .form-container::before{
+    content: var(--background-content);
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);
     background-image: var(--background-image);
@@ -55,6 +56,16 @@
     height: var(--background-height);
     z-index: var(--background-z-index);
     opacity: var(--background-opacity);
+}
+
+.post-about,
+.comment,
+.author,
+.testimonials-top-link,
+.user-first-name,
+.user-last-name,
+.user-experience{
+    z-index: 1;
 }
 
 

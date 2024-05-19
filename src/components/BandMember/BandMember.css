@@ -8,6 +8,7 @@
 }
 
 .member-container::before{
+    content: var(--background-content);
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);
     background-image: var(--background-image);
@@ -20,8 +21,10 @@
     opacity: var(--background-opacity);
 }
 
-.member-name{
-    color: var(--text-color-one)
+.member-name,
+.member-description{
+    color: var(--text-color-one);
+    z-index: 1;
 }
 
 .member-pic{
@@ -33,6 +36,7 @@
 .band-top-link{
     transition: 500ms ease-in-out;
     color: var(--text-color-one);
+    z-index: 1;
 }
 .media-icon:hover,
 .band-top-link:hover{

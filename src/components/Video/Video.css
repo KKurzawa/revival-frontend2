@@ -13,6 +13,7 @@
 }
 
 .videos-container::before{
+    content: var(--background-content);
     position: var(--background-image-position);
     pointer-events: var(--background-pointer-events);
     background-image: var(--background-image);
@@ -25,7 +26,8 @@
     opacity: var(--background-opacity);
 }
 
-iframe{
+iframe,
+.single-video-header{
     z-index: 1;
 }
 
@@ -36,8 +38,10 @@ iframe{
 
 
 .video-top-link{
+    position:relative;
     transition: 500ms ease-in-out;
     color: var(--text-color-one);
+    z-index: 1;
 }
 
 .video-top-link:hover{
