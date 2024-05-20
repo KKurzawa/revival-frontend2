@@ -1,8 +1,29 @@
-# React + Vite
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# Revival Front-end
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+Client side for a professional website for Revival: A Tribute to the Allman Brothers built with React, styled with Tailwind, and deployed with Vercel.  Server in seperate repository, see link below.
 
-Currently, two official plugins are available:
+![screenshot](https://github.com/KKurzawa/Revival-Site/blob/main/public/Screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Github Repository](https://github.com/KKurzawa/revival-frontend2)
+
+[Deployed Site](https://www.revivalbanddetroit.com/)
+
+[Server Github Repository](https://github.com/KKurzawa/Revival-Site-Server)
+
+## Credits
+
+n/a
+
+## Questions
+
+[Github Profile](https://github.com/KKurzawa)
+
+Email me at kurzawa1@yahoo.com for questions.
+
+## License
+
+MIT License
+
+Copyright (c) 2024 Kris Kurzawa
