@@ -19,6 +19,17 @@
     transition: width .5s ease-in-out;
 }
 
-.nav-link:hover::before{
-    width: 100%;
+.nav-link::after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    border-bottom: var(--border-four);
+    transition: width .5s ease-in-out;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after{
+    width: 50%;
 }

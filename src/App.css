@@ -41,7 +41,7 @@ font-family: "Michroma", sans-serif;
 --underline-animation-color: rgba(245, 245, 245, 0.359);
 --text-color-one: whitesmoke;
 --text-color-two: #84bcdd;
---linear-gradient-one: linear-gradient(90deg, whitesmoke, rgba(245, 245, 245, 0.359), #040413);
+--linear-gradient-one: linear-gradient(90deg, whitesmoke, #84bcdda5, #040413);
 }
 
 #root{
