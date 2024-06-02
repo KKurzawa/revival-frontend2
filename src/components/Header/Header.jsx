@@ -1,7 +1,7 @@
 import './Header.css'
 import Navbar from '../Navbar/Navbar'
 import Logo from '/logo.png'
-import RevivalPic from '/HomePhoto.jpg'
+import RevivalPic from '/Band2.jpeg'
 import MobileNavbar from '../MobileNavbar/MobileNavbar'
 
 const Header = () => {
