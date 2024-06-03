@@ -8,9 +8,9 @@
 .individual-nav-link {
     background: var(--linear-gradient-one);
 }
-
+          
 .nav-link-border{
-    border: var(--border-three);
+    border: var(--border-two);
 }
 
 .dropdown{
