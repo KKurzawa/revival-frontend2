@@ -23,6 +23,7 @@ const ShowCard = () => {
                         <button onClick={() => setTimeout(() =>
                             window.open(show.venueLink, '_blank')
                             , 500)} className='venue'><li className=''>{show.venue}</li></button>
+                        <h2 className='city'>{show.location}</h2>
                         <article className='tckt-btn w-full pb-5 text-center'>
                             {show.ticketLink === 1 ? (
                                 <button className='' onClick={noCover}>Get Tickets</button>
