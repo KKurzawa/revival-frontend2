@@ -1,12 +1,5 @@
 export const shows = [
     {
-        date: 'June 14 2024 7pm',
-        venue: 'The Cadieux Cafe',
-        location: 'Detroit, MI',
-        venueLink: 'https://www.cadieuxcafe.com/',
-        ticketLink: 'https://www.eventbrite.com/e/revival-a-tribute-to-the-allman-brothers-tickets-887819501027?aff=oddtdtcreator&fbclid=IwZXh0bgNhZW0CMTAAAR0GNjNTOTU6K_NPmrV7jNKNT9NUcAXDGX-v1LNyJKWZX4vDQ3mc57PCIEs_aem_ARsTqqz_6kC7vCAxOtkKSHKn3cHOBvRb0pPsn3OGbqqnzZAFogL9g8gkgaJOvUBdWfvSwct0kjzuSKvFsyu-piBB'
-    },
-    {
         date: 'June 22 2024 4:30pm',
         venue: 'Brightons Yellowstone Music Festival',
         location: 'Brighton, MI',
