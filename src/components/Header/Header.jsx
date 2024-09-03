@@ -16,7 +16,7 @@ const Header = () => {
                 {/* medium and large */}
                 <main className='header-container hidden md:flex flex-col w-full h-auto'>
                     <article className='pic-container flex flex-col items-center w-full'>
-                        <img src={Logo} alt='logo' className='header-logo mt-3' />
+                        <img src={Logo} alt='' className='header-logo mt-3' />
                         <Navbar />
                     </article>
                     <img src={RevivalPic} alt='pic' className='header-pic' />
