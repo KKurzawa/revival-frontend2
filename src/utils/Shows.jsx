@@ -1,12 +1,5 @@
 export const shows = [
     {
-        date: 'September 5 2024 7pm',
-        venue: "The LaFontaine Family Amphitheater",
-        location: 'Milford, MI',
-        venueLink: "https://www.meetmeinmilford.com/downtown-events/summer-concert-series/",
-        ticketLink: 1
-    },
-    {
         date: 'October 5 2024 7pm',
         venue: 'Wildwood Ampetheater',
         location: 'Lake Orion, MI',
