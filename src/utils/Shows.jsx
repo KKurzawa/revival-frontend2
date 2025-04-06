@@ -1,17 +1,10 @@
 export const shows = [
     {
-        date: 'January 31 2025, 7pm',
-        venue: 'Raue Center for the Arts',
-        location: 'Crystal Lake, IL',
-        venueLink: 'https://www.rauecenter.org',
-        ticketLink: 'https://www.etix.com/ticket/p/67561393/the-revival-brothers-banda-tribute-to-the-allman-brothers-crystal-lake-raue-center-for-the-arts?partner_id=100'
-    },
-    {
         date: 'April 19 2025 8:30pm',
         venue: 'The Cadieux Cafe',
         location: 'Detroit, MI',
         venueLink: 'https://www.cadieuxcafe.com',
-        ticketLink: 2
+        ticketLink: 'https://www.eventbrite.com/e/revival-a-tribute-to-the-allman-brothers-band-tickets-1286692705519?aff=oddtdtcreator&fbclid=IwY2xjawJf0ShleHRuA2FlbQIxMAABHj4RCaYlw88awWNq58hEED-8wMPU7-TcuF8gzVHHd1BxNheZr7APYVA_mdvG_aem__jzIenhx8YNe-uXOsEdpEA'
     },
     {
         date: 'May 9 2025 7:30pm',
