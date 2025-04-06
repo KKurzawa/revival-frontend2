@@ -55,4 +55,18 @@ export const shows = [
         venueLink: 'https://www.cadieuxcafe.com',
         ticketLink: 2
     },
+    {
+        date: 'January 30 2026 8:30pm',
+        venue: 'The Cadieux Cafe',
+        location: 'Detroit, MI',
+        venueLink: 'https://www.cadieuxcafe.com',
+        ticketLink: 2
+    },
+    {
+        date: 'January 31 2026 8:30pm',
+        venue: 'The Cadieux Cafe',
+        location: 'Detroit, MI',
+        venueLink: 'https://www.cadieuxcafe.com',
+        ticketLink: 2
+    },
 ]
